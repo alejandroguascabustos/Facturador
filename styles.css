@@ -1,0 +1,50 @@
+/* Agregamos estilo a la pagina principal */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #27d7e7;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container{
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px gray;
+}
+
+/* Campos de entrada */
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+/* Botones */
+button {
+    background: #27d7e7;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    transition: 0.5s;
+    background:white;
+    color: black;
+    padding: 10px;
+    border: solid 0.1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Lista de productos */
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 8px;
+}
